@@ -1,0 +1,12 @@
+on:
+  workflow_dispatch:
+  push:
+
+name: Test
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run nikki.ps1
+        run: PowerShell -ExecutionPolicy RemoteSigned .\nikki.ps1 
