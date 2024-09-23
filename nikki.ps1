@@ -1,6 +1,6 @@
 ﻿# CONFIG START
 $nikki_dir_path="日記"
-$nikki_format="yyyy年MM月dd日"
+$nikki_format="yyyy年M月d日"
 $nikki_extension="txt"
 # CONFIG END
 
